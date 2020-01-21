@@ -1,0 +1,40 @@
+#board{
+    padding: 3em;
+    text-align: center;
+    
+}
+.row{
+    clear: both;
+    width:302px;
+    margin: 0 auto;
+
+    
+}
+.row > div{
+    float: left;
+    width: 100px;
+    height: 100px;
+    
+}
+.top{
+   border-bottom:1px hotpink solid;
+  
+}
+.bottom{
+    border-top: 1px hotpink solid;
+}
+.left{
+    border-right: 1px black solid;
+}
+.right{
+    border-left: 1px black solid;
+}
+:hover{
+    cursor: pointer;
+    color: purple;
+}
+body {
+    background-image: url(spirited_away.jpg);
+    background-size: cover;
+    font-family: 'Noto Sans', sans-serif;
+}
